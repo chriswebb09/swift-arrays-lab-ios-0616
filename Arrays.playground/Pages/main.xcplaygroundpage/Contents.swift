@@ -15,14 +15,14 @@
 
 
 
-
+let list = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
 
 
 /*: question2
  ### 2. Write an array called 'shoppingList' **with** a type specified that contains the string values "Bread", "Butter", "Cheese", "Lettuce", "Tomatoes".
  */
 // write your code here
-
+let shoppingList: [String] = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
 
 
 
@@ -33,7 +33,13 @@
 // write your code here
 
 
+var futureShoppingList: [String] = []
 
+futureShoppingList.append("Bread")
+futureShoppingList.append("Butter")
+futureShoppingList.append("Cheese")
+futureShoppingList.append("Lettuce")
+futureShoppingList.append("Tomatoes")
 
 
 
@@ -41,7 +47,7 @@
  ### 4. Write an array called 'cheeseSandwich' **with** a type specified whose values will never change and contains the string values "Bread", "Butter", "Cheese", "Lettuce", "Tomatoes".
  */
 // write your code here
-
+let cheeseSandwhich: [String] = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
 
 
 
@@ -55,6 +61,8 @@
 
 
 
+var desertList: [String] = ["Cookie dough", "Icecream"]
+
 
 
 
@@ -62,6 +70,8 @@
  ### 6. Write an array called 'afternoonAttendance' **with** a type specified that contains the integer values 2, 10, 3, 15, 7.
  */
 // write your code here
+
+var afternoonAttendanced: [Int] = [2,10,3,15,7]
 
 
 
@@ -74,8 +84,8 @@
  ### 7. Assign the value at the second position in the 'shoppingList' array to a variable called 'itemToPrint' and print it to the screen.
  */
 // write your code here
-
-
+let itemToPrint = shoppingList[1]
+print(itemToPrint)
 
 
 
@@ -88,7 +98,7 @@
 // write your code here
 
 
-
+futureShoppingList[2] = "Chicken"
 
 
 
